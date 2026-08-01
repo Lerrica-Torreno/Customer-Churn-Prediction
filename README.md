@@ -171,3 +171,44 @@ Future versions of the project may include:
 ```bash
 git clone https://github.com/your-username/your-repository-name.git
 cd your-repository-name
+
+2. Create a virtual environment
+python -m venv venv
+3. Activate the virtual environment
+
+For Windows:
+
+venv\Scripts\activate
+
+For macOS or Linux:
+
+source venv/bin/activate
+4. Install the required libraries
+pip install pandas numpy scikit-learn matplotlib
+5. Add the dataset
+
+Place the Telco Customer Churn CSV file inside the project folder or update the dataset path in the Python script.
+
+6. Run the program
+python main.py
+
+Replace main.py with the actual name of the Python file in the repository.
+
+Authors
+Lerrica Jeremy S. Torreno
+Christian Joshua C. Manaog
+Date
+
+September 28, 2025
+
+Acknowledgments
+Telco Customer Churn Dataset
+Altair RapidMiner AI Studio
+Scikit-learn
+Pandas
+Disclaimer
+
+This project was developed for academic and educational purposes. The predictions should not be used as the sole basis for real-world business decisions without additional validation.
+
+
+The README reflects the project’s documented preprocessing process, model settings, results, key predictors
