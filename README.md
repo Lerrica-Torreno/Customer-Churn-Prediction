@@ -166,49 +166,95 @@ Future versions of the project may include:
 
 ## How to Run the Python Project
 
-### 1. Clone the repository
+````markdown
+## How to Run the Python Project
+
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/your-repository-name.git
 cd your-repository-name
+````
 
-2. Create a virtual environment
+Replace `your-username` and `your-repository-name` with your actual GitHub username and repository name.
+
+### 2. Create a Virtual Environment
+
+```bash
 python -m venv venv
-3. Activate the virtual environment
+```
+
+### 3. Activate the Virtual Environment
 
 For Windows:
 
+```bash
 venv\Scripts\activate
+```
 
 For macOS or Linux:
 
+```bash
 source venv/bin/activate
-4. Install the required libraries
+```
+
+### 4. Install the Required Libraries
+
+```bash
 pip install pandas numpy scikit-learn matplotlib
-5. Add the dataset
+```
 
-Place the Telco Customer Churn CSV file inside the project folder or update the dataset path in the Python script.
+### 5. Add the Dataset
 
-6. Run the program
+Place the Telco Customer Churn CSV file inside the project folder.
+
+Make sure the dataset filename and file path in the Python script match the actual location of the CSV file.
+
+Example:
+
+```python
+import pandas as pd
+
+dataset = pd.read_csv("Telco-Customer-Churn.csv")
+```
+
+### 6. Run the Program
+
+```bash
 python main.py
+```
 
-Replace main.py with the actual name of the Python file in the repository.
+Replace `main.py` with the actual filename of the Python script in the repository.
 
-Authors
-Lerrica Jeremy S. Torreno
-Christian Joshua C. Manaog
-Date
+## Authors
+
+* Lerrica Jeremy S. Torreno
+* Christian Joshua C. Manaog
+
+## Project Date
 
 September 28, 2025
 
-Acknowledgments
-Telco Customer Churn Dataset
-Altair RapidMiner AI Studio
-Scikit-learn
-Pandas
-Disclaimer
+## Acknowledgments
 
-This project was developed for academic and educational purposes. The predictions should not be used as the sole basis for real-world business decisions without additional validation.
+This project was developed using the following datasets, tools, and libraries:
 
+* Telco Customer Churn Dataset
+* Altair RapidMiner AI Studio
+* Python
+* Scikit-learn
+* Pandas
+* NumPy
+* Matplotlib
+* Visual Studio Code
 
-The README reflects the project’s documented preprocessing process, model settings, results, key predictors
+## Disclaimer
+
+This project was created for academic and educational purposes.
+
+The model predictions and findings should not be used as the sole basis for real-world business decisions without further testing, validation, and analysis.
+
+```
+The README reflects the project’s documented preprocessing process, model settings, results, key predictors, limitations, and conclusions. :contentReference[oaicite:0]{index=0}
+```
+
